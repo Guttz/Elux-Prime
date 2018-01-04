@@ -15,6 +15,7 @@ import {MatChipsModule} from '@angular/material/chips'
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {CalendarModule} from 'primeng/primeng';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NotdevelopedComponent }   from './notdeveloped/notdeveloped.component';
 
 import { Routes, RouterModule } from '@angular/router';
 import { ControladoriaDashComponent }   from './controladoria-dash/controladoria-dash.component';
@@ -42,11 +43,12 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
     MatChipsModule,
     MatDatepickerModule,
     CalendarModule,
-    FormsModule
+    FormsModule,
   ],
   declarations: [
   ControladoriaDashComponent,
   ExtractFormComponent,
-  DashboardComponent]
+  DashboardComponent,
+  NotdevelopedComponent]
 })
 export class DashboardModule { }
