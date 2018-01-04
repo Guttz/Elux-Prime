@@ -1,0 +1,15 @@
+.item-toolbar{
+	background: #f9f9f9;
+}
+
+.send-button{
+	background: #0097A7;
+	color: white;
+	float: right;
+	width: 25%;
+	margin-top: 30px;
+}
+
+.timedateadapter{
+	padding: 0px;
+}

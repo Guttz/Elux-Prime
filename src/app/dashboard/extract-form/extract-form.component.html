@@ -1,0 +1,38 @@
+<mat-toolbar class="item-toolbar" style="background: #00838F; color: white; margin: 4px;">
+      <span>Geração de estruturas</span>
+    </mat-toolbar>
+
+<div style="margin: 30px;">
+
+
+    <form class="form-center" fxLayout="column" fxLayoutAlign="center stretch" >
+      
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Year: 2017, 2018" value="">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Month: JAN, FEB..." value="">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Email to send files" value="">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="Trackmodels List: MFA 2412ECBA2064I
+"></textarea>
+      </mat-form-field>
+
+    </form>
+
+
+      <button mat-button class="send-button">Send</button>
+
+      <div class="ui-g-12 ui-md-4 timedateadapter" >
+          <h4 style="color: grey; margin: 10px;">Scheduling Time</h4>
+          <p-calendar [(ngModel)]="date" [showTime]="true"></p-calendar>
+      </div>
+
+
+</div>

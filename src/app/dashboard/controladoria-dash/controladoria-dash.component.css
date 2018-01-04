@@ -1,0 +1,114 @@
+/*
+Cores:
+900: #006064;
+Azul mais escuro 800: #00838F
+Azul mais claro 700; #0097A7
+
+Divisores: #cccccc;
+quase preto: #383838;
+
+;
+ */
+ 
+.example-container {
+  height: 854px;
+}
+
+.example-sidenav-content {
+	background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav-buttons{
+	padding-left: 29px;
+	color: white;
+	border-bottom: 1px solid #cccccc;
+	width: 100%;
+	text-align: left;
+	font-family: "electroluxSans";
+}
+
+.sidenav-labels{
+	background: #00838F;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	left: 10px;
+	display: inline-block;
+	color: white;
+	width: 100%;
+	border-bottom: 1px solid #cccccc;
+	text-align: left;
+	font-family: "electroluxSans";
+}
+
+.sidenav-footer{
+	padding: 10px;
+	position:fixed;
+	bottom:0;
+	display: inline-block;
+	color: white;
+	width: 100%;
+	text-align: left;
+	font-family: "electroluxSans";
+}
+
+.main-sidenav {
+  width: 22%;
+  background: #0097A7;
+}
+
+.example-card {
+	border: 2px solid;
+	border-color: rgba(180,180,180,0.5);
+	margin-top: 30px;
+	background: #F0F0F0;
+  	width: 350px;
+  	font-family: "electroluxSans";
+}
+.example-card2 {
+	border: 1px solid;
+	border-color: #0097A7;
+	margin-top: 30px;
+	background: #F0F0F0;
+  	width: 350px;
+  	font-family: "electroluxSans";
+}
+
+
+.card-actions{
+	margin: 0px;
+	padding: 0px;
+}
+
+.example-header-image {
+  background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/1241-200.png');
+  background-size: cover;
+}
+
+.z-depth-1 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.z-depth-1-half {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.z-depth-2 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.z-depth-3 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+.z-depth-4 {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+}
+
+.z-depth-5 {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}

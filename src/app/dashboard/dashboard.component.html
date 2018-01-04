@@ -1,0 +1,36 @@
+	<mat-sidenav-container color="primary" class="example-container" >
+		<mat-sidenav #sidenav class="main-sidenav" color="primary" opened="true" mode="side">
+
+			<label routerLink="/dashboard" class="sidenav-labels"> <b> Controladoria </b> </label> 
+
+	    	<button routerLink="/dashboard/extractForm" mat-button class="sidenav-buttons">Geração de estruturas</button>
+	    	<button mat-button class="sidenav-buttons">Relatório de divergência</button>
+	    	<button mat-button class="sidenav-buttons">Extração de dados</button>
+	    	<button mat-button class="sidenav-buttons" style="border-bottom: 0px; padding-bottom: 5px;">Agregação dos SKUs</button>
+
+	    	<label class="sidenav-labels"> <b> Compradores </b> </label> 
+
+	    	<button mat-button class="sidenav-buttons">Relatório de BU</button>
+	    	<button mat-button class="sidenav-buttons">Twelve Months Plan</button>
+	    	<button mat-button class="sidenav-buttons" style="border-bottom: 0px; padding-bottom: 5px;">Análise de divergência</button>
+
+	    	<label class="sidenav-labels"> <b> Compradores </b> </label> 
+ 
+	    	<button mat-button class="sidenav-buttons">Relatório de BU</button>
+	    	<button mat-button class="sidenav-buttons">Twelve Months Plan</button>
+	    	<button mat-button class="sidenav-buttons" style="border-bottom: 0px;">Análise de divergência</button>
+
+    	<div style="text-align:center; position:fixed; bottom:0; padding-bottom: 45px;">
+	 		<img align = "middle" src="assets/icons/elux-name-logo-black2.png" style="max-height: 100%; max-width: 50%;">
+	 	</div>
+
+    	<label class="sidenav-footer"> Optilux v1.0 </label>
+
+    	<label class="sidenav-footer" style="text-align: right; right: 5px;"> Gustavo Morais</label> 
+
+	  	</mat-sidenav>
+		
+		<router-outlet></router-outlet>
+
+	</mat-sidenav-container>
+	

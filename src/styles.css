@@ -1,0 +1,20 @@
+*{
+		font-family: "electroluxSans";
+}
+
+body{
+       	margin: 0px;
+        padding: 0px;
+        border: 0px; 
+    }
+
+@font-face {
+	font-family: "electroluxSans";
+    src: url("assets/fonts/ElectroluxSans-Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: "electroluxSans";
+    src: url("assets/fonts/ElectroluxSans-SemiBold.woff") format('woff');
+    font-weight: bold;
+}

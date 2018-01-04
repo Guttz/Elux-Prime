@@ -1,0 +1,42 @@
+#over
+{
+    width:38.3%;
+    height:50px;
+}
+/*handles the vertical centering*/
+.Centerer
+{
+	padding-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 110%;
+	font-family: "electroluxSans";
+}
+
+.Centered
+{
+	max-height: 100%;
+    max-width: 100%;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.toolbar-class{
+    box-shadow: 2px 2px 2px grey;
+	display: inline-flex;
+	padding-right: 0px;
+}
+
+.toolbar-buttons{
+    font-size: 90%;
+    height: 100%;
+    color: white;
+    width: 70%;
+    font-family: "electroluxSans";
+}

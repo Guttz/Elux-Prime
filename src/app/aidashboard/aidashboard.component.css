@@ -1,0 +1,18 @@
+.toolbar-class{
+	background: #0097A7;
+}
+
+.menu-button{
+	font-family: "electroluxSans";
+	color: white;
+	font-size: 95%;
+}
+
+.dropped-menu-button{
+	font-family: "electroluxSans";
+	color: black;
+	font-size: 110%;
+}
+
+.mat-menu{
+}
